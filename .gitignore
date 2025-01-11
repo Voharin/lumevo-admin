@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+/vendor
+
+# Environment files
+.env
+.env.backup
+
+# Storage and public files
+/public/hot
+/public/storage
+/storage/*.key
+/storage/media-library/**/*
+
+# IDE specific files
+/.idea
+/.vscode
+.DS_Store
+
+# Cache and logs
+.phpunit.result.cache
+*.cache
+npm-debug.log
+yarn-error.log
+
+# Local configuration
+Homestead.json
+Homestead.yaml
+
+# Public assets
+/public/css/*
+!/public/css/.gitkeep
+/public/js/core/*
+!/public/js/core/.gitkeep
+/public/js/*.js*
+!/public/js/.gitkeep
+/public/js/iqonic-script/*.min.js*
+!/public/js/iqonic-script/.gitkeep
+!/public/js/setting-init.js
+/public/modules/**/*
+!/public/modules/.gitkeep
+/public/mix-manifest.json
